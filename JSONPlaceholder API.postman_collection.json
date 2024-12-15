@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "dc4d7319-862b-4907-8c27-f72f50a5fb21",
+		"name": "JSONPlaceholder API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39913901"
+	},
+	"item": [
+		{
+			"name": "Posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts/3",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/users",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "USER ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/users/1",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/all",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
